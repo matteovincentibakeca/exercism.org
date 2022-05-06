@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     
     strategy:
-      matrix: { dir: ['elixir/bird-count' }
+      matrix: { dir: ['elixir/bird-count'] }
 
     steps:
     - uses: actions/checkout@v3
